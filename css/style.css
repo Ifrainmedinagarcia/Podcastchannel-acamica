@@ -1,0 +1,924 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Inicio Header */
+.logo_header{
+    width: 24px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+header{
+            width: 100%;
+            height: 44px;
+            background-color: #ffffff;
+}
+.navbar{
+    display: none;
+}
+/* Fin de Header */
+/* Inicio de hello word */
+.seccion_hello_word{
+    width: 100%;
+}
+.contenedor_hello_word{
+    position: relative;
+     margin: auto;
+    top: 29px;
+    width: 90%;
+}
+.title_hello_word{
+    font-family: 'IBM Plex Sans';
+    font-size: 36px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px;
+}
+.escritorio{
+    display: none;
+}
+span{
+    text-decoration: line-through;
+
+}
+.parrafo_hello_word{
+    font-family: 'IBM Plex Mono';
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-top: 10PX;
+}
+.contenedor_boton_hello_word{
+    width: 90vw;;
+    height: 48px;
+    position: relative;
+    margin: auto;
+}
+.boton_conoce_mas{
+    position: relative;
+    top:20px;
+    width: 90vw;
+    height: 48px;
+    background-color: #00F3BB;
+    border: none;
+    font-family: 'IBM Plex Mono';
+    font-size: 16px;
+    color: #060A24;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+}
+/* Fin de hello word */
+/* Inicio de bloque azul */
+.bloque_azul{
+    position: absolute;
+    top: 347px;
+    width: 100%;
+    height: 1203.5px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    z-index: -1;
+    transform: skewy(-5deg);
+}
+/* Fin de bloque azul */
+/* Inicio spotify */
+.seccion_iframe{
+    position: relative;
+    top: 150px;
+}
+.contenedor_title_iframe{
+    width: 80vw;
+}
+.title_iframe{
+    font-family: 'IBM Plex Sans';
+    font-size: 36px;
+    color: #FFFFFF;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 42px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 25px;
+}
+.contenedor_iframe_flex{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1500px;    
+}
+.contenedor_iframe{
+    display: flex;
+    flex-wrap: wrap;
+    height: 225px;
+    justify-content: center;
+    position: relative;
+    margin: 8px;      
+}
+iframe{
+    width: 90vw;
+    height: 100vh;
+    border: none;         
+}
+/* Fin de spotify */
+/* Inicio donde venimos */
+.seccion_de_donde_venimos{
+    width: 100%;
+    position: relative;
+    top:180px;
+}    
+.contenedor_de_donde_venimos_flex{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.iphone{
+    width: 250px;
+}
+.contenedor_de_donde_venimos_text{
+    width: 90vw;
+    max-width: 464px;
+}
+.title_de_donde_venimos{
+    font-family: 'IBM Plex Sans';
+    font-size: 36px;
+    color: #060A24;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 42px;
+    margin: 10px;
+}
+.parrafo_de_donde_venimos{
+    font-family: 'IBM Plex Mono';
+    font-size: 14px;
+    font-weight: 400;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 10px;
+}    
+/* Fin donde venimos */
+/* Inicio invitados*/
+.seccion_img_invitados{
+        position: relative;
+        top: 200px;
+}
+.title_invitados{
+        font-family: 'IBM Plex Sans';
+        font-size: 36px;
+        font-weight: 500;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 42px;
+        margin: 10px;
+}
+.contenedor_title_invitados{
+    position: relative;
+    margin: auto;
+    width: 90vw;
+    max-width: 464px;
+    margin-bottom: 20px;
+}
+.contenedor_img_invitados{
+    position: relative;
+    margin: auto;
+    width: 100%;
+}
+.foto{
+    width: 100%;
+    margin: -3px;
+}    
+/* Fin de invitados */
+/* Inicio de algunos de nuestros temas */
+.seccion_algunos_temas{
+    width: 100%;
+    position: relative;
+    top: 220px;
+    margin: auto;
+}
+.contenedor_title_algunos_temas{
+    width: 80vw;
+}
+.title_algunos_temas{
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
+    font-size: 36px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px;
+    margin: 20px;
+}
+.contenedor_nuestros_temas_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contenedor_nuestros_temas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 250px;
+    margin: 20px;
+}
+.ancho{
+    width: 300px;
+}
+.icono{
+    width: 104px;
+}
+.parrafo_nuestros_temas{
+    text-align: center;
+    margin: 10px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-size: 24px;
+    color: #060A24;
+    letter-spacing: 0;
+}
+/* Fin de algunos de nuestros temas */
+/* Inicio de footer blue */
+.foot_blue{
+    position: relative;
+    top: 260PX;
+    width: 100%;
+    height: 341px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    transform: skewy(-3deg);
+}
+/* Fin de footer blue */
+/* Inicio de últimas novedades */
+.seccion_ultimas_novedades{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+}
+.contenedor_ultimas_novedades{
+    width: 90vw;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    top: -20px;  
+}
+.title_ultimas_novedades{
+    font-family: 'IBM Plex Sans';
+    font-size: 36px;
+    color: #FFFFFF;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 42px;
+}
+.contenedor_boton_ultimas_novedades{
+    width: 90vw;
+    height: 48px;
+    position: relative;
+    margin: auto;
+    top:20px;
+}
+.btn_escucha{
+    position: relative;
+    margin: auto;
+    top:20px;
+    width: 90vw;
+    height: 48px;
+    background-color: #00F3BB;
+    border: none;
+    font-family: 'IBM Plex Mono';
+    font-size: 16px;
+    color: #060A24;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+}
+/* Fin de últimas novedades  */
+/* Inicio de footer*/
+footer{
+    position: relative;
+    width: 100%;
+    top: 220px;
+    background-color: white;  
+}
+.contenedor_footer_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contenedor_title_footer{
+    position: relative;
+    top: 20px;
+    width: 90vw;
+}
+.text-footer{
+    font-family: 'IBM Plex Mono';
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px; 
+    text-align: center;
+}
+.contenedor_footer_rrss{
+    position: relative;
+    margin-bottom: 20px;
+    top: 30px;
+}
+.fab{
+    font-size: 16px;
+    margin: 10px;
+}
+.rrss_link{
+    text-decoration: none;
+    color: black;
+}
+/* Fin de footer */
+
+/* Inicio media query */
+@media screen and (min-width:480px){
+/* inicio hello word */
+.contenedor_boton_hello_word{
+    width: 70vw;;
+}
+.boton_conoce_mas{
+    width: 70vw; 
+}
+/* Fin de hello word */
+/* Inicio bloque azul */
+.bloque_azul{
+    top: 300px;
+}
+/* Fin de bloque azul */
+/* Inicio últimas novedades*/
+.contenedor_boton_ultimas_novedades{
+    width: 70vw;
+}
+.btn_escucha{
+    width: 70vw;
+}
+/* Fin últimas novedades */
+/* Inicio footer */
+footer{
+    height: 100px;
+} 
+/* Fin footer */  
+}
+@media screen and (min-width:680px){
+/* Inicio spotify */
+.seccion_iframe{
+    top: 200px;
+}
+.title_iframe{
+    left: 35px;
+    top: -15px;
+}
+/* Fin spotify */
+/* Inicio de donde venimos */
+.seccion_de_donde_venimos{
+    width: 100%;
+    position: relative;
+    top:220px;
+}   
+.iphone{
+    width: 320px;
+}
+/* Fin de donde venimos */
+/* Inicio de invitados */
+.seccion_img_invitados{
+    position: relative;
+    top: 220px;
+}
+/* Fin de invitados */
+/* Inicio footer */
+footer{
+    height: 100px;    
+}
+/* FIN FOOTER */
+}
+@media screen and (min-width:784px){
+/* Inicio header */
+header{
+    height: 80px;
+}
+.logo_header{
+    width: 36px;
+    top: 20px;
+}
+.navbar{
+    position: absolute;
+    right: 50px;
+    display: block;
+    top: 25px;
+    width: 400px;
+}
+.check_check{
+    display: none;
+}
+.menu_cerrado{
+    display: none;
+}
+.menu_abierto{
+    display: none;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menu_li{
+    list-style: none;
+}
+.menu_li_link{
+    text-decoration: none;
+    font-family: 'IBM Plex Mono';
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 28px;
+        
+}
+.menu_li_link:hover{
+    color: #00F3BB;
+    text-decoration: line-through;
+}
+/*Fin de header */
+/*Inicio hellow word*/
+.parrafo_hello_word{
+    display: none;
+}
+.contenedor_hello_word{
+    position: absolute;
+    width: 628px;
+    top: 100px;
+    left: 80px;   
+}
+.escritorio{
+    display: block;
+}
+.point_blue{
+    color: #0000EC;
+}
+.contenedor_boton_hello_word{
+    width: 226px;
+    height: 56px;
+    position: absolute;
+    left: 2px;
+}
+.boton_conoce_mas{
+    top:20px;
+    width: 226px;
+    height: 56px;
+}
+/* Fin hello word */
+/* Inicio bloque azul */
+.bloque_azul{
+    position: absolute;
+    top: 320px;
+}
+/* Fin de bloque azul */
+/* Inicio spotify */
+.seccion_iframe{
+    position: relative;
+    top: 300px;
+}
+.contenedor_title_iframe{
+    position: relative;
+    top: 10px;
+    left:50px;
+}
+iframe{
+    width: 80vw;
+    height: 100vh;
+    border: none;         
+}
+/* Fin spotify */
+/* Inicio de donde venimos */
+.seccion_de_donde_venimos{
+    width: 100%;
+    position: relative;
+    top:350px;
+}    
+.iphone{
+    width: 300px;
+}
+.contenedor_de_donde_venimos_text{
+    position: relative;
+    top: 100px;  
+}
+.title_de_donde_venimos{
+    font-family: 'IBM Plex Sans';
+    font-size: 36px;
+    color: #060A24;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 42px;
+    margin: 10px;
+}
+/* Fin de donde venimos */
+/* Inicio de invitados */
+.seccion_img_invitados{
+        position: relative;
+        top: 350px;
+}
+.title_invitados{
+        font-size: 36px;
+        margin: 10px;
+}
+.contenedor_title_invitados{
+    position: relative;
+    right: 85px;
+    margin: auto;
+    width: 90vw;
+    max-width: 464px;
+    margin-bottom: 20px;
+}
+.contenedor_img_invitados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+.foto{
+    width:33%;
+    margin: 0px;
+    flex: 1;
+}
+/* Fin de invitados */
+/* Inicio algunos de nuestros temas */
+.seccion_algunos_temas{
+    width: 100%;
+    position: relative;
+    top: 350px;
+    margin: auto;
+}
+/* Fin algunos de nuestros temas */
+/* Inicio de footer blue */
+.foot_blue{
+    position: relative;
+    top: 340PX;
+    transform: skewy(-3deg);
+}
+/* fin de footer blue */
+/* Inicio últimas novedades */
+.contenedor_ultimas_novedades{
+    top: 80px;
+}
+.contenedor_boton_ultimas_novedades{
+    width: 226px;
+    height: 56px;
+    position: relative;
+    margin: auto;
+    top:20px;
+}
+.btn_escucha{
+    width: 226px;
+    height: 56px;      
+}
+/* fin de últimas novedades*/
+/* Inicio de footer */
+footer{
+    position: relative;
+    width: 100%;
+    top: 300px;
+    background-color: white;
+}
+.contenedor_footer_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contenedor_title_footer{
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    width: 269px;
+}
+.text-footer{
+    font-family: 'IBM Plex Mono';
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px; 
+    text-align: center;
+}
+.contenedor_footer_rrss{
+    position: absolute;
+    right: 50px;
+    margin-bottom: 20px;
+    top: 30px;   
+}
+.fab{
+    font-size: 16px;
+    margin: 20px;
+}
+.rrss_link{
+    text-decoration: none;
+    color: black;
+}
+/* Fin de footer */
+}
+@media screen and (min-width:1024px){
+/* Inicio hello word */
+.contenedor_hello_word{
+    position: absolute;
+    width: 628px;
+    top: 100px;
+    left: 80px; 
+}
+.title_hello_word{
+    font-size: 50px;
+}
+/* Fin de hello word */
+/* Inicio de bloque azul */
+.bloque_azul{
+    position: absolute;
+    top: 320px;
+    width: 100%;
+    height: 700px;
+}
+/* Fin de bloque azul */
+/* Inicio spotify*/
+.seccion_iframe{
+    position: relative;
+    top: 300px;
+}
+iframe{
+    width: 40vw;
+    max-width: 584px;
+    height: 100vh;
+    border: none;      
+}
+.title_iframe{
+    font-family: 'IBM Plex Sans';
+    font-size: 36px;
+    color: #FFFFFF;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 42px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 100px;
+}
+/* Fin spotify */
+/* Inicio de invitados */
+.seccion_img_invitados{
+    position: relative;
+    top: 350px;
+}
+.contenedor_title_invitados{
+    position: relative;
+    right: 140px;
+    margin: auto;
+    width: 90vw;
+    max-width: 464px;
+    margin-bottom: 20px;
+}
+/* Fin de invitados */
+/* Inicio de algunos de nuestros temas */
+.contenedor_nuestros_temas{
+    width: 200px;
+}
+.ancho{
+    width:200px;
+}
+.contenedor_title_algunos_temas{
+    position: relative;
+    left: 130px ;
+}
+/* Fin de algunos de nuestros temas */
+/* Inicio de footer blue */
+.foot_blue{
+    top: 380PX;
+}
+/* Fin de footer buel */
+/* Inicio de últimas novedades */
+.contenedor_ultimas_novedades{
+    top: 130px;
+}
+/* Fin de últimas novedades  */
+/* Inicio footer */
+footer{
+    position: relative;
+    width: 100%;
+    top: 350px;
+    background-color: white;
+}
+.fab{
+    font-size: 20px;
+}
+/* Fin footer */
+}
+@media screen and (min-width:1300px){
+/* Inicio de header */
+.logo_header{
+    width: 36px;
+    top: 20px;
+    left: 50px;
+}
+/* Fin de header */
+/*Inicio hello word*/
+.contenedor_hello_word{
+    left: 150px;   
+}
+/* Fin de hello word */
+/* Inicio spotify */
+.contenedor_iframe{
+    margin: 15px;
+}
+/* Fin spotify */
+/* Inicio de donde venimos */
+.iphone{
+    width: 350px;
+    margin-right: 150px;
+}
+.contenedor_de_donde_venimos_text{
+    position: relative;
+    top: 200px;  
+}
+/* Fin de donde venimos */
+/* Inicio invitados */
+.contenedor_title_invitados{
+   
+    right: 280px;
+ 
+}
+/* Fin de invitados */
+/* Inicio footer blue */
+.foot_blue{
+    top: 380PX;
+}
+/* Fin de footer blue */
+/* Inicio de últimas novedades */
+.contenedor_ultimas_novedades{
+    top: 130px;
+}
+/* Fin de últimas novedades  */
+/* Inicio footer */
+footer{
+    position: relative;
+    width: 100%;
+    top: 320px;
+    background-color: white;
+}
+/* Fin de footer */
+}
+@media screen and (min-width:1600px){
+/* Inicio header */
+.navbar{
+    right: 150px;
+    top: 30px;
+}
+/* Inicio hello word */
+.contenedor_hello_word{
+    width: 800px;
+}
+.title_hello_word{
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+.escritorio{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+/* Fin de hello word */
+/* Inicio spotify */
+.bloque_azul{
+    height: 800px;
+}
+.seccion_iframe{
+    top: 350px;
+}
+.contenedor_iframe{
+    margin: 20px;
+}
+.contenedor_title_iframe{
+    position: relative;
+    top: 10px;
+    left:150px;
+}
+.title_iframe{
+    font-size: 48px;
+}
+/* Fin spotify */
+/* Inicio donde venimos */
+.seccion_de_donde_venimos{
+    top: 380px;
+}
+.iphone{
+    width: 457.6px;
+}
+.title_de_donde_venimos{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.parrafo_de_donde_venimos{
+    font-size: 16px;
+}
+/* Fin de donde venimos */
+/* Inicio invitados */
+.seccion_img_invitados{
+    top: 400px;
+}
+.contenedor_title_invitados{
+    right: 340px;
+}
+.title_invitados{
+    font-size: 40px;
+}
+/* Fin invitados */
+/* Inicio algunos temas*/
+.seccion_algunos_temas{
+    top: 400px;
+}
+.contenedor_title_algunos_temas{
+    left: 210px;
+}
+.title_algunos_temas{
+    font-size: 40px;
+}
+.contenedor_nuestros_temas{
+    margin: 50px;
+}
+/* Fin algunos temas */
+/* Inicio de footblue*/
+.foot_blue{
+    top: 450px;
+    height: 518px;
+}
+/* Fin footblue */
+/* Inicio novedades */
+.seccion_ultimas_novedades{
+    position: relative;
+    
+}
+.title_ultimas_novedades{
+    font-size: 48px;
+}
+.contenedor_boton_ultimas_novedades{
+    width: 345px;
+    height: 56px;
+}
+.btn_escucha{
+    width: 345px;
+    height: 56px;
+}
+/* Fin de novedades */
+/* Inicio de footer */
+footer{
+    top: 200px;
+}
+}
+@media screen and (min-width:2000px){
+/* Inicio hello word */
+.seccion_hello_word{
+    position: relative;
+    top: 3px;
+    left: 300px;
+}
+/* Fin de hello word */
+/* Inicio spotity */
+.bloque_azul{
+    top: 500px;
+}
+.seccion_iframe{
+    top: 550px;
+}
+.contenedor_title_iframe{
+    width: 500px;
+    left: 340px;
+}
+/* Fin spotify */
+/* Inicio donde venimos */
+.seccion_de_donde_venimos{
+    top: 580px;
+}
+/* Fin de donde venimos */
+/* Inicio ivitadas */
+.seccion_img_invitados{
+    top: 600px;
+}
+/* Fin invitadas */
+/* Inicio nustros temas */
+.seccion_algunos_temas{
+    top: 600px;
+}
+/* Fin de nuestros temas */
+/* Inicio últimas novedades */
+.foot_blue{
+    top: 650px;
+}
+.contenedor_ultimas_novedades{
+    top: 300px;
+}
+/* Fin últimas novedades */
+/* Inicio de footer */
+footer{
+    top: 390px;
+    height: 115px;
+}
+}
