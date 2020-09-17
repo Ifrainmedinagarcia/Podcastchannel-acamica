@@ -2,9 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 :root{
     scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden
 }
 /* Inicio Header */
 .logo_header{
@@ -14,9 +18,9 @@
     left: 20px;
 }
 header{
-            width: 100%;
-            height: 44px;
-            background-color: #ffffff;
+    width: 100%;
+    height: 44px;
+    background-color: #ffffff;
 }
 .cerrado, .abierto {
     display: block;
@@ -163,6 +167,7 @@ span{
     top: 150px;
 }
 .contenedor_title_iframe{
+    margin: 0;
     width: 80vw;
 }
 .title_iframe{
@@ -565,6 +570,7 @@ header{
     top: 300px;
 }
 .contenedor_title_iframe{
+    margin: 0;
     position: relative;
     top: 10px;
     left:50px;
@@ -876,6 +882,7 @@ footer{
     margin: 20px;
 }
 .contenedor_title_iframe{
+    margin: 0;
     position: relative;
     top: 10px;
     left:150px;
@@ -951,6 +958,7 @@ footer{
 footer{
     top: 200px;
 }
+/* Fin de footer */
 }
 @media screen and (min-width:2000px){
     
@@ -969,7 +977,7 @@ footer{
     top: 550px;
 }
 .contenedor_title_iframe{
-    width: 500px;
+    width: 200px;
     left: 340px;
 }
 /* Fin spotify */
@@ -987,6 +995,11 @@ footer{
 .seccion_algunos_temas{
     top: 600px;
 }
+.contenedor_title_algunos_temas{
+    width: 600px;
+    left: 410px;
+}
+
 /* Fin de nuestros temas */
 /* Inicio últimas novedades */
 .foot_blue{
