@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    scroll-behavior: smooth;
+}
 /* Inicio Header */
 .logo_header{
     width: 24px;
@@ -15,8 +18,71 @@ header{
             height: 44px;
             background-color: #ffffff;
 }
-.navbar{
+.cerrado, .abierto {
+    display: block;
+    margin: 1em;
+    width: 24px;
+    background-color: white;
+    border: none;
+}
+.activar_menu, .cerrado, .abierto {
+    position: absolute; 
+    right: 10px;
+    top: -15px;
+    width: 24px;
+    height: 24px;  
+}
+.cerrado, .abierto {
+    font-size: 24px;
+    pointer-events: none;
+}
+.activar_menu {
+    top: 10px;
+    right: 32px;
+    opacity: 0; 
+}
+.activar_menu:checked ~ nav {
+    display: block;
+}
+.activar_menu:checked ~ .abierto {
     display: none;
+}
+.navbar{
+    position: absolute;
+    top: 44px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background: #0000EC;
+    display: none;
+}
+.menu{
+    list-style: none;
+    width: 100px;
+}
+.menu_li{
+    margin: 20px;
+}
+.menu_li_link{
+    position: relative;
+    left: 20px;
+    text-decoration: none;
+    font-family: 'IBM Plex Mono';
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+.menu_li_link:hover{
+    font-family: 'IBM Plex Mono';
+    font-weight: 500;
+    color: #00F3BB;
+    text-decoration: line-through;
+}
+.menu_li_link:active{
+    font-family: 'IBM Plex Mono';
+    color: rgba(6,10,36,0.56);
+    text-decoration: line-through;
 }
 /* Fin de Header */
 /* Inicio de hello word */
@@ -25,7 +91,7 @@ header{
 }
 .contenedor_hello_word{
     position: relative;
-     margin: auto;
+    margin: auto;
     top: 29px;
     width: 90%;
 }
@@ -72,6 +138,13 @@ span{
     text-align: center;
     line-height: 22px;
 }
+.boton_conoce_mas:hover{
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+}
+
 /* Fin de hello word */
 /* Inicio de bloque azul */
 .bloque_azul{
@@ -297,6 +370,12 @@ iframe{
     text-align: center;
     line-height: 22px;
 }
+.btn_escucha:hover{
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+}
 /* Fin de últimas novedades  */
 /* Inicio de footer*/
 footer{
@@ -337,7 +416,6 @@ footer{
     color: black;
 }
 /* Fin de footer */
-
 /* Inicio media query */
 @media screen and (min-width:480px){
 /* inicio hello word */
@@ -401,6 +479,9 @@ footer{
 }
 @media screen and (min-width:784px){
 /* Inicio header */
+.activar_menu, .cerrado, .abierto{
+    display: none;
+} 
 header{
     height: 80px;
 }
@@ -409,22 +490,14 @@ header{
     top: 20px;
 }
 .navbar{
-    position: absolute;
-    right: 50px;
     display: block;
-    top: 25px;
-    width: 400px;
-}
-.check_check{
-    display: none;
-}
-.menu_cerrado{
-    display: none;
-}
-.menu_abierto{
-    display: none;
+    background-color: transparent;
 }
 .menu{
+    position: absolute;
+    right: 30px;
+    top: -40px;
+    width: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -444,6 +517,12 @@ header{
 .menu_li_link:hover{
     color: #00F3BB;
     text-decoration: line-through;
+}
+
+.menu_li_link:active{
+    color: rgba(6,10,36,0.56);
+    letter-spacing: 0;
+    line-height: 28px;
 }
 /*Fin de header */
 /*Inicio hellow word*/
@@ -769,9 +848,9 @@ footer{
 }
 @media screen and (min-width:1600px){
 /* Inicio header */
-.navbar{
-    right: 150px;
-    top: 30px;
+.menu{
+    top: -40px;
+    right: 80px;
 }
 /* Inicio hello word */
 .contenedor_hello_word{
@@ -874,6 +953,7 @@ footer{
 }
 }
 @media screen and (min-width:2000px){
+    
 /* Inicio hello word */
 .seccion_hello_word{
     position: relative;

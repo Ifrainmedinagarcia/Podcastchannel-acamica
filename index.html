@@ -13,17 +13,18 @@
 <body>
     <header>
         <img class="logo_header" src="img/logo.svg" alt="logo podcast channel">
-        <nav class="navbar">
-            <input class="check_check" type="checkbox">
-            <label class="menu_cerrado" for="menu"><em class="fas fa-bars"></em> </label>
-            <label class="menu_abierto" for="menu"><em class="fas fa-times"></em> </label>
-            <ul class="menu">
+            <input class="activar_menu" type="checkbox">
+            <button class="cerrado"><em class="fas fa-times"></em></button>
+            <button class="abierto"><em class="fas fa-bars"></em></button>
+	    <nav class="navbar">
+	        <ul class="menu">
                 <li class="menu_li"><a class="menu_li_link" href="#link_episodio">EPISODIOS</a></li>
                 <li class="menu_li"><a class="menu_li_link" href="#link_nosotros">NOSOTROS</a></li>
-                <li class="menu_li"><a class="menu_li_link" href="#link_nosotros">ENTREVISTAS</a></li>
+                <li class="menu_li"><a class="menu_li_link" href="#link_entrvista">ENTREVISTAS</a></li>
                 <li class="menu_li"><a class="menu_li_link" href="#link_topicos">TÓPICOS</a></li>
-            </ul>
-        </nav>
+	        </ul>
+	    </nav>
+       
     </header>
     <main>
         <section class="seccion_hello_word">
@@ -36,7 +37,7 @@
                 </div>
             </div>
         </section>
-        <div class="bloque_azul"></div>
+        <div id="link_episodio" class="bloque_azul"></div>
         <section class="seccion_iframe">
             <div class="contenedor_title_iframe">
                 <h3 class="title_iframe">Episodios</h3>
@@ -56,7 +57,7 @@
                 </div>
             </div>
         </section>
-        <section class="seccion_de_donde_venimos">
+        <section id="link_nosotros" class="seccion_de_donde_venimos">
             <div class="contenedor_de_donde_venimos_flex">
                 <div class="contenedor_de_donde_venimos_img">
                     <img class="iphone" src="img/phone.png" alt="iphone">
@@ -68,21 +69,21 @@
                 </div>
             </div> 
         </section>
-        <section class="seccion_img_invitados">
+        <section id="link_entrvista" class="seccion_img_invitados">
             <div class="contenedor_title_invitados">
                 <h3 class="title_invitados">Invitadas/os estelares</h3>
             </div>
             <div class="contenedor_img_invitados">
                 <img class="foto" src="img/grace-hopper.png" alt="Grace Hopper">
                 <img class="foto" src="img/Katie-Bouman.png" alt="Katie Bouman">
-                <img class="foto" src="img/Margaret_Hamilton.png" alt="Margaret Hamilton">
-                <img class="foto" src="img/An E.R.A.Univac 1103 computer in the 1950s.png" alt="Computer in the 1950s">
-                <img class="foto" src="img/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="the world’s first programmable general purpose computer">
+                <img class="foto" src="img/Margaret_Hamilton.png" alt="Margaret_Hamilton">
+                <img class="foto" src="img/AnE.R.A.Univac.png" alt="Computer">
+                <img class="foto" src="img/computer.png" alt="computer">
                 <img class="foto" src="img/susan-kare.png" alt="Susan Kare">
             </div>  
         </section>
     </main>
-    <section class="seccion_algunos_temas">
+    <section id="link_topicos" class="seccion_algunos_temas">
         <div class="contenedor_title_algunos_temas">
             <h4 class="title_algunos_temas">Algunos de nuestros temas</h4>
         </div>
